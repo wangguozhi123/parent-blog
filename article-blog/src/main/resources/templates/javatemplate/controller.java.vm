@@ -1,0 +1,48 @@
+package ${package.Controller};
+
+
+import org.springframework.web.bind.annotation.RequestMapping;
+
+#if(${restControllerStyle})
+import org.springframework.web.bind.annotation.RestController;
+#else
+import org.springframework.stereotype.Controller;
+#end
+#if(${superControllerClassPackage})
+import ${superControllerClassPackage};
+#end
+import io.swagger.annotations.*;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import com.icaremgt.wechat.common.verify.Check;
+import org.springframework.web.bind.annotation.*;
+import ${package.Service}.${table.serviceName};
+
+/**
+ * <p>
+ * $!{table.comment}  控制器
+ * </p>
+ * @作者 : ${author}
+ * @时间 : ${date}
+ */
+@RestController
+@Api(tags = "$!{table.comment}相关接口", position = 10, description = "里面有增删改查一些基本方法")
+@RequestMapping("/v1#if(${package.ModuleName})/${package.ModuleName}#end/#if(${controllerMappingHyphenStyle})${controllerMappingHyphen}#else${table.entityPath}#end")
+#if(${superControllerClass})
+public class ${table.controllerName} extends ${superControllerClass} {
+#else
+public class ${table.controllerName} {
+#end
+    /**
+     * 日志组件
+     */
+    private static final Logger logger = LoggerFactory.getLogger(${table.controllerName}.class);
+    /**
+     * 注入AccountService组件
+     */
+#set ($namea =   $table.serviceName.substring(1,2).toLowerCase() +$table.serviceName.substring(2,$table.serviceName.length()))
+    @Autowired
+    private ${table.serviceName} ${namea};
+
+}

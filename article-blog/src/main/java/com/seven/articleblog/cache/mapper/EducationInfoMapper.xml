@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.seven.articleblog.cache.mapper.EducationInfoMapper">
+
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="com.seven.articleblog.cache.bean.EducationInfo">
+		<id column="id" property="id" />
+		<result column="education_name" property="educationName" />
+		<result column="education_phone" property="educationPhone" />
+		<result column="org_id" property="orgId" />
+		<result column="community_id" property="communityId" />
+		<result column="exist_wechat" property="existWechat" />
+		<result column="category_wechat" property="categoryWechat" />
+		<result column="is_register" property="isRegister" />
+		<result column="is_confirm" property="isConfirm" />
+	</resultMap>
+
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        id, education_name, education_phone, org_id, community_id, exist_wechat, category_wechat, is_register,is_confirm     </sql>
+
+	<select id="selectInfo" resultType="com.seven.articleblog.cache.bean.EducationInfo">
+		select * from nh_ri_education_info ei where ei.id=#{id}
+	</select>
+</mapper>

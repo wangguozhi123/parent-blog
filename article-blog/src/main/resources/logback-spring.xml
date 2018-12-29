@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 开发环境log文件位置-->
+    <property name="LOG_HOME" value="logs/" />
+    <!--项目名-->
+    <property name="PROJECT_NAME" value="parent-blog" />
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <!--<pattern>%d{yyyy-MM-dd HH:mm:ss}&#45;&#45;&ndash;&gt; %-5level - class [%c] - %msg%n</pattern>-->
+            <pattern>%d{yyyy-MM-dd HH:mm:ss}:[%thread]%-5level %logger{50}[%msg]%n</pattern>
+        </encoder>
+    </appender>
+    <appender name="infoAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/${PROJECT_NAME}.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>INFO</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/${PROJECT_NAME}_info.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <!--<maxFileSize>20MB</maxFileSize>-->
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level - class [%c] - %msg%n
+            </pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    <appender name="errorAppender" class="ch.qos.logback.core.rolling.RollingFileAppender">
+        <file>${LOG_HOME}/${PROJECT_NAME}_error.log</file>
+        <filter class="ch.qos.logback.classic.filter.LevelFilter">
+            <level>ERROR</level>
+            <onMatch>ACCEPT</onMatch>
+            <onMismatch>DENY</onMismatch>
+        </filter>
+        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
+            <fileNamePattern>${LOG_HOME}/${PROJECT_NAME}_error.%d{yyyy-MM-dd}.gz</fileNamePattern>
+            <maxHistory>30</maxHistory>
+            <!--<maxFileSize>20MB</maxFileSize>-->
+        </rollingPolicy>
+        <encoder>
+            <pattern>%d{yyyy-MM-dd HH:mm:ss} %-5level - class [%c] - %msg%n
+            </pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+    <!--设置HttpClient的日志级别， wire是请求求header相关信息（调试时开启，设置改为DEBUG）-->
+    <logger name="org.apache.http.wire" level="ERROR"></logger>
+    <logger name="org.apache.http.headers" level="ERROR"></logger>
+    <logger name="org.apache.http.impl" level="ERROR"></logger>
+    <logger name="druid.sql.Statement" level="ERROR"></logger>
+    <logger name="druid.sql.ResultSet" level="ERROR"></logger>
+    <logger name="druid.sql.Connection" level="ERROR"></logger>
+
+    <root level="info">
+        <appender-ref ref="CONSOLE" />
+        <appender-ref ref="infoAppender" />
+        <appender-ref ref="errorAppender" />
+    </root>
+</configuration>

@@ -1,0 +1,776 @@
+2018-12-27 16:10:22 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 6572 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 16:10:22 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 16:10:23 INFO  - class [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-27 16:12:54 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 6512 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 16:12:54 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 16:12:56 INFO  - class [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-27 16:31:05 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 23428 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 16:31:05 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 16:31:06 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 16:31:06 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 16:31:06 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2018-12-27 16:31:07 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e74a0f99] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 16:31:07 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 16:31:07 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:31:07 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 16:31:07 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 16:31:07 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 16:31:07 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 16:31:07 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2382 ms
+2018-12-27 16:31:07 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:31:07 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 16:31:07 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:31:07 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 16:31:07 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 16:31:07 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 16:31:07 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 16:31:07 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 16:31:07 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 16:31:07 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 16:31:10 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 16:31:11 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:31:11 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:31:11 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 16:31:11 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 16:31:11 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 7.957 seconds (JVM running for 9.411)
+2018-12-27 16:32:56 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 16:32:56 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 16:32:56 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 14 ms
+2018-12-27 16:33:29 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-27 16:33:29 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-27 16:41:22 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 19644 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 16:41:22 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 16:41:24 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 16:41:24 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 16:41:24 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2018-12-27 16:41:25 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2317e7f0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 16:41:26 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 16:41:26 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:41:26 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 16:41:26 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 16:41:26 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 16:41:26 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 16:41:26 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 3068 ms
+2018-12-27 16:41:26 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:41:26 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 16:41:26 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:41:26 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 16:41:26 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 16:41:26 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 16:41:26 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 16:41:26 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 16:41:26 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 16:41:26 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 16:41:29 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 16:41:29 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:41:30 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:41:30 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 16:41:30 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 16:41:30 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 9.072 seconds (JVM running for 10.853)
+2018-12-27 16:41:39 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 16:41:39 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 16:41:39 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 20 ms
+2018-12-27 16:41:39 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 16:41:39 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-27 16:41:39 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-27 16:42:33 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:42:33 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 16:42:45 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 22932 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 16:42:45 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 16:42:46 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 16:42:46 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 16:42:46 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2018-12-27 16:42:47 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9595440d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 16:42:48 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 16:42:48 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:42:48 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 16:42:48 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 16:42:48 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 16:42:48 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 16:42:48 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 3168 ms
+2018-12-27 16:42:48 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:42:48 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 16:42:48 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:42:48 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 16:42:48 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 16:42:48 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 16:42:48 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 16:42:48 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 16:42:48 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 16:42:48 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 16:42:52 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 16:42:52 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:42:53 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:42:53 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 16:42:53 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 16:42:53 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 9.641 seconds (JVM running for 12.051)
+2018-12-27 16:42:58 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 16:42:58 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 16:42:58 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 17 ms
+2018-12-27 16:42:58 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 16:43:09 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 16:46:52 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:46:52 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 16:47:08 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 18660 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 16:47:08 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 16:47:09 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 16:47:09 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 16:47:09 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2018-12-27 16:47:10 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9013e9cc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 16:47:10 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 16:47:10 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:47:10 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 16:47:10 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 16:47:10 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 16:47:10 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 16:47:10 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2749 ms
+2018-12-27 16:47:11 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:47:11 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 16:47:11 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:47:11 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 16:47:11 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 16:47:11 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 16:47:11 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 16:47:11 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 16:47:11 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 16:47:11 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 16:47:13 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 16:47:14 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:47:15 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:47:15 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 16:47:15 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 16:47:15 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 8.824 seconds (JVM running for 11.156)
+2018-12-27 16:47:25 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 16:47:25 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 16:47:25 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 17 ms
+2018-12-27 16:47:25 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 16:49:32 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:49:32 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 16:50:48 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 16036 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 16:50:48 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 16:50:49 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 16:50:49 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 16:50:50 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2018-12-27 16:50:50 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$7676aca2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 16:50:51 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 16:50:51 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:50:51 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 16:50:51 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 16:50:51 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 16:50:51 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 16:50:51 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2801 ms
+2018-12-27 16:50:51 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:50:51 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 16:50:51 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:50:51 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 16:50:51 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 16:50:51 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 16:50:51 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 16:50:51 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 16:50:51 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 16:50:51 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 16:50:54 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 16:50:54 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:50:55 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:50:55 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 16:50:55 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 16:50:55 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 8.361 seconds (JVM running for 9.778)
+2018-12-27 16:50:59 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 16:50:59 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 16:50:59 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 15 ms
+2018-12-27 16:50:59 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 16:51:04 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 16:51:05 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-27 16:51:05 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-27 16:54:40 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:54:40 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 16:54:49 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 1792 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 16:54:49 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 16:54:50 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 16:54:50 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 16:54:50 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2018-12-27 16:54:51 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$677f5319] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 16:54:52 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 16:54:52 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:54:52 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 16:54:52 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 16:54:52 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 16:54:52 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 16:54:52 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 3460 ms
+2018-12-27 16:54:52 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:54:52 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 16:54:52 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:54:52 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 16:54:52 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 16:54:52 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 16:54:52 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 16:54:52 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 16:54:52 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 16:54:52 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 16:54:56 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 16:54:56 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:54:57 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:54:57 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 16:54:57 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 16:54:57 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 9.748 seconds (JVM running for 11.748)
+2018-12-27 16:55:08 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 16:55:08 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 16:55:08 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 26 ms
+2018-12-27 16:55:08 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 16:55:08 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-27 16:55:08 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-27 16:55:45 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 16:56:31 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 16:59:04 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 16:59:10 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 16:59:10 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 16:59:19 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 23840 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 16:59:19 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 16:59:20 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 16:59:20 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 16:59:20 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2018-12-27 16:59:21 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$932c4431] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 16:59:21 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 16:59:21 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 16:59:21 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 16:59:21 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 16:59:21 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 16:59:21 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 16:59:21 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2839 ms
+2018-12-27 16:59:22 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:59:22 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 16:59:22 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 16:59:22 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 16:59:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 16:59:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 16:59:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 16:59:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 16:59:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 16:59:22 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 17:01:03 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 17:01:03 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 17:01:04 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:01:04 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 17:01:04 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 17:01:04 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 107.202 seconds (JVM running for 108.704)
+2018-12-27 17:01:24 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 17:01:24 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 17:01:24 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 15 ms
+2018-12-27 17:01:24 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 17:02:41 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 17:02:41 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 17:02:49 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 15484 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 17:02:49 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 17:02:50 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 17:02:50 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 17:02:50 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2018-12-27 17:02:51 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$66a7f766] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 17:02:52 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 17:02:52 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:02:52 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 17:02:52 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 17:02:52 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 17:02:52 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 17:02:52 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2522 ms
+2018-12-27 17:02:52 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:02:52 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 17:02:52 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:02:52 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 17:02:52 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 17:02:52 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 17:02:52 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 17:02:52 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 17:02:52 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 17:02:52 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 17:02:55 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 17:02:55 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 17:02:56 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:02:56 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 17:02:56 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 17:02:56 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 8.901 seconds (JVM running for 10.88)
+2018-12-27 17:06:06 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 17:06:06 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 17:06:06 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 16 ms
+2018-12-27 17:06:06 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 17:06:21 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 17:06:21 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-27 17:06:21 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-27 17:06:44 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 17:06:44 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 17:15:24 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 24804 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 17:15:24 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 17:15:26 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 17:15:26 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 17:15:26 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2018-12-27 17:15:26 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$2af3f8f3] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 17:15:27 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 17:15:27 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:15:27 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 17:15:27 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 17:15:27 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 17:15:27 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 17:15:27 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 3734 ms
+2018-12-27 17:15:27 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:15:27 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 17:15:27 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:15:27 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 17:15:27 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 17:15:27 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 17:15:27 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 17:15:27 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 17:15:27 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 17:15:27 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 17:15:31 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 17:15:32 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 17:15:32 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:15:32 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 17:15:32 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 17:15:32 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 10.533 seconds (JVM running for 12.51)
+2018-12-27 17:16:45 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 17:17:04 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 17:17:06 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 23 ms
+2018-12-27 17:17:06 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db1
+2018-12-27 17:17:06 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-27 17:17:06 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-27 17:17:30 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 17:17:33 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 17:19:09 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 17:22:18 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db1
+2018-12-27 17:22:49 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 17:22:49 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 17:22:59 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 18760 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 17:22:59 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 17:23:00 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 17:23:00 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 17:23:00 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2018-12-27 17:23:01 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$549f31c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 17:23:02 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 17:23:02 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:23:02 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 17:23:02 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 17:23:02 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 17:23:02 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 17:23:02 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2993 ms
+2018-12-27 17:23:02 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:23:02 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 17:23:02 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:23:02 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 17:23:02 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 17:23:02 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 17:23:02 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 17:23:02 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 17:23:02 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 17:23:02 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 17:23:24 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 17:23:24 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 17:23:24 INFO  - class [org.apache.catalina.core.StandardService] - Stopping service [Tomcat]
+2018-12-27 17:23:24 INFO  - class [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-27 17:23:59 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 21520 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 17:23:59 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 17:24:01 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 17:24:01 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 17:24:01 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 24ms. Found 0 repository interfaces.
+2018-12-27 17:24:01 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$569d8925] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 17:24:02 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 17:24:02 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:24:02 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 17:24:02 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 17:24:02 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 17:24:02 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 17:24:02 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2952 ms
+2018-12-27 17:24:02 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:24:02 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 17:24:02 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:24:02 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 17:24:02 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 17:24:02 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 17:24:02 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 17:24:02 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 17:24:02 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 17:24:02 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 17:24:05 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 17:24:05 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 17:24:06 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:24:06 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 17:24:06 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 17:24:06 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 8.686 seconds (JVM running for 10.477)
+2018-12-27 17:24:11 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 17:24:11 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 17:24:11 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 16 ms
+2018-12-27 17:24:11 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db1
+2018-12-27 17:24:11 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-27 17:24:11 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-27 17:24:19 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db1
+2018-12-27 17:24:23 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 17:32:12 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 17:35:53 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 17:35:53 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 17:36:06 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 19132 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 17:36:06 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 17:36:08 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 17:36:08 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 17:36:08 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 55ms. Found 0 repository interfaces.
+2018-12-27 17:36:08 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4f8676d7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 17:36:09 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 17:36:09 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:36:09 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 17:36:09 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 17:36:09 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 17:36:09 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 17:36:09 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 3185 ms
+2018-12-27 17:36:09 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:36:09 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 17:36:09 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:36:09 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 17:36:09 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 17:36:09 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 17:36:09 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 17:36:09 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 17:36:09 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 17:36:09 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 17:36:56 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 19492 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 17:36:56 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 17:36:58 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 17:36:58 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 17:36:58 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2018-12-27 17:36:58 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9b1bab7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 17:36:59 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 17:36:59 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:36:59 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 17:36:59 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 17:36:59 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 17:36:59 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 17:36:59 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2572 ms
+2018-12-27 17:36:59 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:36:59 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 17:36:59 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:36:59 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 17:36:59 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 17:36:59 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 17:36:59 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 17:36:59 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 17:36:59 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 17:36:59 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 17:37:26 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 17:37:27 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 17:37:27 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:37:27 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 17:37:27 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 17:37:28 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 32.274 seconds (JVM running for 33.963)
+2018-12-27 17:37:48 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 17:37:48 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 17:37:48 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 12 ms
+2018-12-27 17:37:48 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 17:49:09 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 17:49:09 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 17:49:19 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 10652 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 17:49:19 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 17:49:21 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 17:49:21 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 17:49:21 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 52ms. Found 0 repository interfaces.
+2018-12-27 17:49:22 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4cedc53e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 17:49:23 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 17:49:23 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:49:23 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 17:49:23 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 17:49:23 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 17:49:23 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 17:49:23 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 4161 ms
+2018-12-27 17:49:23 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:49:23 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 17:49:23 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 17:49:23 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 17:49:23 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 17:49:23 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 17:49:23 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 17:49:23 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 17:49:23 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 17:49:23 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 17:49:26 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 17:49:27 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 17:49:28 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 17:49:28 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 17:49:28 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 17:49:28 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 10.597 seconds (JVM running for 13.104)
+2018-12-27 17:50:43 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 17:50:43 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 17:50:44 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 19 ms
+2018-12-27 17:50:44 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 18:10:50 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 18:10:50 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 19:48:06 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 16396 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 19:48:06 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 19:48:07 INFO  - class [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-27 19:48:45 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 22600 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 19:48:45 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 19:48:47 INFO  - class [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2018-12-27 19:49:05 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 8440 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 19:49:05 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 19:49:06 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 19:49:06 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 19:49:06 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 27ms. Found 0 repository interfaces.
+2018-12-27 19:49:07 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$31d87922] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 19:49:08 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 19:49:08 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:49:08 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 19:49:08 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 19:49:08 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 19:49:08 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 19:49:08 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2986 ms
+2018-12-27 19:49:08 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:49:08 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 19:49:08 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:49:08 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 19:49:08 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 19:49:08 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 19:49:08 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 19:49:08 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 19:49:08 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 19:49:08 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 19:49:12 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 19:49:13 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:49:13 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:49:13 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 19:49:13 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 19:49:13 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 10.013 seconds (JVM running for 11.54)
+2018-12-27 19:49:43 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:49:43 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 19:50:20 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 24128 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 19:50:20 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 19:50:21 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 19:50:21 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 19:50:21 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 34ms. Found 0 repository interfaces.
+2018-12-27 19:50:21 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$d2d9b724] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 19:50:22 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 19:50:22 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:50:22 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 19:50:22 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 19:50:22 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 19:50:22 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 19:50:22 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2461 ms
+2018-12-27 19:50:22 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:50:22 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 19:50:22 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:50:22 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 19:50:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 19:50:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 19:50:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 19:50:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 19:50:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 19:50:22 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 19:50:25 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 19:50:26 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:50:26 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:50:26 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 19:50:26 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 19:50:26 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 8.294 seconds (JVM running for 9.908)
+2018-12-27 19:50:44 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 19:50:44 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 19:50:44 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 13 ms
+2018-12-27 19:50:44 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db1
+2018-12-27 19:50:44 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-27 19:50:44 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-27 19:51:03 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 19:52:23 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:52:24 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 19:52:39 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 6880 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 19:52:39 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 19:52:41 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 19:52:41 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 19:52:41 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 22ms. Found 0 repository interfaces.
+2018-12-27 19:52:41 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$db7dfd6d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 19:52:42 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 19:52:42 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:52:42 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 19:52:42 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 19:52:42 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 19:52:42 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 19:52:42 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 3001 ms
+2018-12-27 19:52:42 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:52:42 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 19:52:42 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:52:42 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 19:52:42 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 19:52:42 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 19:52:42 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 19:52:42 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 19:52:42 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 19:52:42 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 19:52:44 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 19:52:45 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:52:46 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:52:46 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 19:52:46 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 19:52:46 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 8.197 seconds (JVM running for 9.713)
+2018-12-27 19:52:51 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 19:52:51 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 19:52:51 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 13 ms
+2018-12-27 19:52:51 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 19:52:59 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:52:59 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 19:54:25 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 25316 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 19:54:25 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 19:54:27 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 19:54:27 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 19:54:27 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2018-12-27 19:54:27 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e8cdf4a2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 19:54:28 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 19:54:28 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:54:28 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 19:54:28 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 19:54:28 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 19:54:28 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 19:54:28 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2903 ms
+2018-12-27 19:54:28 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:54:28 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 19:54:28 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:54:28 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 19:54:28 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 19:54:28 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 19:54:28 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 19:54:28 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 19:54:28 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 19:54:28 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 19:54:31 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 19:54:32 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:54:32 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:54:32 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 19:54:32 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 19:54:32 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 8.85 seconds (JVM running for 10.618)
+2018-12-27 19:54:37 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 19:54:37 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 19:54:37 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 13 ms
+2018-12-27 19:54:37 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 19:54:48 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 19:56:05 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:56:05 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 19:56:15 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 3564 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 19:56:15 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 19:56:16 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 19:56:16 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 19:56:16 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 42ms. Found 0 repository interfaces.
+2018-12-27 19:56:17 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a766d08d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 19:56:18 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 19:56:18 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:56:18 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 19:56:18 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 19:56:18 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 19:56:18 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 19:56:18 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 3095 ms
+2018-12-27 19:56:18 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:56:18 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 19:56:18 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:56:18 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 19:56:18 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 19:56:18 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 19:56:18 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 19:56:18 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 19:56:18 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 19:56:18 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 19:56:21 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 19:56:22 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:56:23 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:56:23 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 19:56:23 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 19:56:23 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 10.69 seconds (JVM running for 12.632)
+2018-12-27 19:56:35 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 19:56:35 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 19:56:35 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 19 ms
+2018-12-27 19:56:35 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 19:56:36 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-2} inited
+2018-12-27 19:56:54 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db1
+2018-12-27 19:56:54 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-27 19:56:54 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-27 19:57:09 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:57:10 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 19:57:10 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-2} closed
+2018-12-27 19:57:19 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 9744 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 19:57:19 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 19:57:20 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 19:57:20 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 19:57:20 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2018-12-27 19:57:21 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$954c8ee] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 19:57:21 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 19:57:21 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:57:21 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 19:57:21 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 19:57:21 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 19:57:21 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 19:57:21 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2718 ms
+2018-12-27 19:57:22 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:57:22 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 19:57:22 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:57:22 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 19:57:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 19:57:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 19:57:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 19:57:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 19:57:22 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 19:57:22 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 19:57:24 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 19:57:25 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:57:25 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:57:25 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 19:57:25 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 19:57:25 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 8.249 seconds (JVM running for 9.747)
+2018-12-27 19:57:30 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 19:57:30 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 19:57:30 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 14 ms
+2018-12-27 19:57:30 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db1
+2018-12-27 19:57:30 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-27 19:57:30 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-27 19:57:37 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 19:57:39 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-2} inited
+2018-12-27 19:58:14 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:58:15 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 19:58:15 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-2} closed
+2018-12-27 19:58:26 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Starting ArticleBlogApplication on LAPTOP-2N01GQB7 with PID 23712 (C:\Users\wgz\IDEA\parent-blog\article-blog\target\classes started by wgz in C:\Users\wgz\IDEA\parent-blog)
+2018-12-27 19:58:26 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - No active profile set, falling back to default profiles: default
+2018-12-27 19:58:27 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-27 19:58:27 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-27 19:58:27 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 55ms. Found 0 repository interfaces.
+2018-12-27 19:58:28 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$cd9fef9a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-27 19:58:29 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat initialized with port(s): 9005 (http)
+2018-12-27 19:58:29 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Initializing ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:58:29 INFO  - class [org.apache.catalina.core.StandardService] - Starting service [Tomcat]
+2018-12-27 19:58:29 INFO  - class [org.apache.catalina.core.StandardEngine] - Starting Servlet Engine: Apache Tomcat/9.0.12
+2018-12-27 19:58:29 INFO  - class [org.apache.catalina.core.AprLifecycleListener] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jdk1.8.0_172\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Boxstarter;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;";C:\Program Files\Java\jdk1.7.0_79\bin;C:\Program Files\Java\jdk1.7.0_79\jre\bin;C:\Program Files\TortoiseSVN\bin;D:\apache-maven-3.5.3\bin\bin;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd";D:\apache-maven-3.5.3\bin;D:\nodejs\;C:\ProgramData\chocolatey\bin;C:\Users\wgz\AppData\Local\Microsoft\WindowsApps;C:\Users\wgz\AppData\Roaming\npm;.]
+2018-12-27 19:58:29 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring embedded WebApplicationContext
+2018-12-27 19:58:29 INFO  - class [org.springframework.web.context.ContextLoader] - Root WebApplicationContext: initialization completed in 2996 ms
+2018-12-27 19:58:29 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:58:29 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet dispatcherServlet mapped to [/]
+2018-12-27 19:58:29 INFO  - class [org.springframework.boot.web.servlet.ServletRegistrationBean] - Servlet statViewServlet mapped to [/druid/*]
+2018-12-27 19:58:29 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Servlet statViewServlet was not registered (possibly already registered?)
+2018-12-27 19:58:29 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-12-27 19:58:29 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-12-27 19:58:29 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'formContentFilter' to: [/*]
+2018-12-27 19:58:29 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'requestContextFilter' to: [/*]
+2018-12-27 19:58:29 INFO  - class [org.springframework.boot.web.servlet.FilterRegistrationBean] - Mapping filter: 'webStatFilter' to urls: [/*]
+2018-12-27 19:58:29 INFO  - class [org.springframework.boot.web.servlet.RegistrationBean] - Filter webStatFilter was not registered (possibly already registered?)
+2018-12-27 19:58:31 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-27 19:58:32 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:58:33 INFO  - class [org.apache.coyote.http11.Http11NioProtocol] - Starting ProtocolHandler ["http-nio-9005"]
+2018-12-27 19:58:33 INFO  - class [org.apache.tomcat.util.net.NioSelectorPool] - Using a shared selector for servlet write/read
+2018-12-27 19:58:33 INFO  - class [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] - Tomcat started on port(s): 9005 (http) with context path ''
+2018-12-27 19:58:33 INFO  - class [com.seven.articleblog.ArticleBlogApplication] - Started ArticleBlogApplication in 8.878 seconds (JVM running for 10.809)
+2018-12-27 19:58:37 INFO  - class [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2018-12-27 19:58:37 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Initializing Servlet 'dispatcherServlet'
+2018-12-27 19:58:37 INFO  - class [org.springframework.web.servlet.DispatcherServlet] - Completed initialization in 22 ms
+2018-12-27 19:58:37 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db2
+2018-12-27 19:58:38 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-2} inited
+2018-12-27 19:58:48 INFO  - class [com.seven.articleblog.multiple.aop.DataSourceAspect] - 选择数据源---db1
+2018-12-27 19:58:48 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-27 19:58:48 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-27 19:58:59 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-27 19:59:00 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-27 19:59:00 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-2} closed

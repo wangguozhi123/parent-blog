@@ -1,0 +1,86 @@
+package ${package.ServiceImpl};
+
+import ${cfg.modelParent}.${entity};
+import ${cfg.mapperParent}.${table.mapperName};
+import ${package.Service}.${table.serviceName};
+#if(${cfg.isMp})
+import ${superMapperClassPackage};
+import com.baomidou.mybatisplus.service.impl.ServiceImpl;
+#else
+import org.springframework.beans.factory.annotation.Autowired;
+import com.baomidou.mybatisplus.plugins.Page;
+import java.util.List;
+#end
+import org.springframework.stereotype.Service;
+
+
+/**
+ * <p>
+ * $!{table.comment}Service实现类
+ * </p>
+ * @作者 : ${author}
+ * @时间 : ${date}
+ */
+@Service
+
+public class ${table.serviceImplName}  #if(${cfg.isMp})extends ${superServiceImplClass}<${table.mapperName}, ${entity}> #end implements ${table.serviceName} {
+#if(${cfg.isMp})
+#else
+#set ($namea = $table.mapperName.substring(0,1).toLowerCase() + $table.mapperName.substring(1,$table.mapperName.length()))
+#set ($nameaa = $table.entityName.substring(0,1).toLowerCase() + $table.entityName.substring(1,$table.entityName.length()))
+    /**
+    * 注入$!{table.comment}Mapper组件
+    */
+    @Autowired
+    private ${table.mapperName}  ${namea};
+
+    /**
+    *  根据主键查找$!{table.comment}记录
+    * @param $!{table.fields[0].propertyName} 主键
+    * @return 数据结果
+    */
+    @Override
+    public ${entity} findById($!{table.fields[0].columnType.type} $!{table.fields[0].propertyName}){
+        return ${namea}.findById($!{table.fields[0].propertyName});
+    }
+
+    /**
+    * 查找所有用户可传入条件
+    * @return 查询结果
+    */
+    @Override
+    public Page<${entity}>find(${entity} ${nameaa},Page page){
+        List<${entity}> ${nameaa}s = ${namea}.find(${nameaa}, page);
+        page.setRecords(${nameaa}s);
+        return page;
+    }
+
+    /**
+    *  动态新增。自动返回主键
+    * @param ${nameaa} 数据
+    * @return 结果
+    */
+    @Override
+    public int add(${entity} ${nameaa}){
+        return ${namea}.insert(${nameaa});
+    }
+    /**
+    *  根据主键动态更新记录
+    * @param ${nameaa} 数据
+    * @return 更新结果
+    */
+    @Override
+    public int update(${entity} ${nameaa}){
+        return ${namea}.updateById(${nameaa});
+    }
+    /**
+     *  根据id删除用户
+     * @param $!{table.fields[0].propertyName} 主键
+     * @return 记录
+     */
+    @Override
+    public int delete($!{table.fields[0].columnType.type} $!{table.fields[0].propertyName}){
+        return ${namea}.deleteById($!{table.fields[0].propertyName});
+    }
+#end
+}

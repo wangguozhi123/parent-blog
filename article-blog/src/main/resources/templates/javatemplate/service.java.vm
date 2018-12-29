@@ -1,0 +1,54 @@
+package ${package.Service};
+
+import ${cfg.modelParent}.${entity};
+
+#if(${cfg.isMp})
+import ${superMapperClassPackage};
+import com.baomidou.mybatisplus.service.IService;
+#else
+import com.baomidou.mybatisplus.plugins.Page;
+#end
+
+/**
+ * <p>
+ * $!{table.comment}Service
+ * </p>
+ * @作者 : ${author}
+ * @时间 : ${date}
+ */
+public interface ${table.serviceName} #if(${cfg.isMp}) extends ${superServiceClass}<${entity}>#end {
+#if(${cfg.isMp})
+
+#else
+    #set ($namea = $table.entityName.substring(0,1).toLowerCase() + $table.entityName.substring(1,$table.entityName.length()))
+    /**
+     *  根据主键查找$!{table.comment}记录
+     * @param $!{table.fields[0].propertyName} 主键
+     * @return 数据结果
+     */
+    ${entity} findById($!{table.fields[0].columnType.type} $!{table.fields[0].propertyName});
+    /**
+    * 按条件查找记录
+    * @return 查询结果
+    */
+    Page<${entity}> find(${entity} ${namea}, Page page);
+    /**
+     *  动态新增。自动返回主键
+     * @param ${namea} 数据
+     * @return 结果
+     */
+    int add(${entity} ${namea});
+    /**
+     *  更新记录
+     * @param ${namea} 数据
+     * @return 更新结果
+     */
+    int update(${entity} ${namea});
+    /**
+     *  删除记录
+     * @param $!{table.fields[0].propertyName} 主键
+     * @return 记录
+     */
+    int delete($!{table.fields[0].columnType.type} $!{table.fields[0].propertyName});
+#end
+}

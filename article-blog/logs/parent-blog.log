@@ -1,0 +1,63 @@
+2018-12-10 21:40:13 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 1148 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2018-12-10 21:40:13 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2018-12-10 21:40:15 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-10 21:40:15 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-10 21:40:16 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
+2018-12-10 21:40:16 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$90cd6421] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-10 21:40:20 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-10 21:40:22 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:40:24 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 12.618 seconds (JVM running for 15.287)
+2018-12-10 21:40:25 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-10 21:40:25 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-10 21:40:28 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:40:28 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-10 21:42:20 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 7924 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2018-12-10 21:42:20 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2018-12-10 21:42:23 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-10 21:42:23 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-10 21:42:23 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+2018-12-10 21:42:24 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$187ec860] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-10 21:42:27 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-10 21:42:29 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:42:30 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 11.344 seconds (JVM running for 12.921)
+2018-12-10 21:42:31 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-10 21:42:31 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-10 21:42:33 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:42:33 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-10 21:43:11 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 15476 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2018-12-10 21:43:11 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2018-12-10 21:43:13 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-10 21:43:13 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-10 21:43:13 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2018-12-10 21:43:14 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a41b488d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-10 21:43:17 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-10 21:43:19 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:43:20 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 10.443 seconds (JVM running for 12.087)
+2018-12-10 21:43:21 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-10 21:43:21 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-10 21:43:23 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-10 21:43:23 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2018-12-10 23:03:17 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 16828 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2018-12-10 23:03:17 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2018-12-10 23:03:19 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-10 23:03:19 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-10 23:03:19 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 56ms. Found 0 repository interfaces.
+2018-12-10 23:03:20 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ccfa9b27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-10 23:03:24 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-10 23:03:28 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 23:03:31 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 15.149 seconds (JVM running for 18.872)
+2018-12-10 23:03:32 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-10 23:03:32 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-10 23:03:42 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 15496 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2018-12-10 23:03:42 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2018-12-10 23:03:44 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2018-12-10 23:03:44 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2018-12-10 23:03:45 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 66ms. Found 0 repository interfaces.
+2018-12-10 23:03:45 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a6855673] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-12-10 23:03:50 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2018-12-10 23:03:53 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2018-12-10 23:03:56 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 14.601 seconds (JVM running for 17.454)
+2018-12-10 23:03:56 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
+2018-12-10 23:03:56 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
+2018-12-10 23:03:59 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2018-12-10 23:03:59 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed

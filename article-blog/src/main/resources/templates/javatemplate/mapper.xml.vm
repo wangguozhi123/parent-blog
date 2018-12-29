@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="${package.Mapper}.${table.mapperName}">
+
+#if(${enableCache})
+	<!-- 开启二级缓存 -->
+	<cache type="org.mybatis.caches.ehcache.LoggingEhcache"/>
+
+#end
+#if(${baseResultMap})
+	<!-- 通用查询映射结果 -->
+	<resultMap id="BaseResultMap" type="${package.Entity}.${entity}">
+#foreach($field in ${table.fields})
+#if(${field.keyFlag})##生成主键排在第一位
+		<id column="${field.name}" property="${field.propertyName}" />
+#end
+#end
+#foreach($field in ${table.commonFields})##生成公共字段
+	<result column="${field.name}" property="${field.propertyName}" />
+#end
+#foreach($field in ${table.fields})
+#if(!${field.keyFlag})##生成普通字段
+		<result column="${field.name}" property="${field.propertyName}" />
+#end
+#end
+	</resultMap>
+
+#end
+#if(${baseColumnList})
+    <!-- 通用查询结果列 -->
+    <sql id="Base_Column_List">
+        #foreach($field in ${table.fields})#if(${field.keyFlag})${field.name},#end#if(!${field.keyFlag})#if($velocityCount==$table.fields.size())${field.name} #else ${field.name},#end#end#end
+    </sql>
+#end
+#if(${cfg.isMp})
+#else
+    <!--  根据主键查找对应记录 -->
+    <select id="findById"  resultMap="BaseResultMap">
+        select
+        <include refid="Base_Column_List" />
+        from ${table.name}
+        where $!{table.fields[0].name} = #{$!{table.fields[0].propertyName}}
+    </select>
+
+    <select id="find"  resultMap="BaseResultMap">
+        <!--  根据条件查找所有$!{table.comment}记录 -->
+        select
+        <include refid="Base_Column_List" />
+        from ${table.name}
+        where 1=1
+    </select>
+
+    <!--  动态新增$!{table.comment}记录,默认返回主键 -->
+    <insert id="insert" parameterType="${package.Entity}.${entity}" useGeneratedKeys="true" keyColumn="$!{table.fields[0].name}" keyProperty="$!{table.fields[0].propertyName}">
+        insert into ${table.name}
+        <trim prefix="(" suffix=")" suffixOverrides=",">
+        ##生成主键排在第一位
+#foreach($field in ${table.fields})
+#if(${field.keyFlag})
+            <if test="$!{field.propertyName} != null">
+                $!{field.name},
+            </if>
+#end
+#end
+        ##生成普通字段
+#foreach($field in ${table.fields})
+#if(!${field.keyFlag})
+            <if test="$!{field.propertyName} != null">
+                $!{field.name},
+            </if>
+#end
+#end
+        </trim>
+        <trim prefix="values (" suffix=")" suffixOverrides=",">
+        ##生成主键排在第一位
+#foreach($field in ${table.fields})
+#if(${field.keyFlag})
+            <if test="$!{field.propertyName} != null">
+                #{$!{field.propertyName}},
+            </if>
+#end
+#end
+        ##生成普通字段
+#foreach($field in ${table.fields})
+#if(!${field.keyFlag})
+                <if test="$!{field.propertyName} != null">
+                    #{$!{field.propertyName}},
+                </if>
+#end
+#end
+        </trim>
+    </insert>
+
+    <!--  根据主键动态更新$!{table.comment}记录 -->
+    <update id="updateById" parameterType="${package.Entity}.${entity}">
+        update ${table.name}
+        <set>
+#foreach($field in ${table.fields})
+#if(${field.keyFlag})
+            <if test="$!{field.propertyName} != null">
+                $!{field.name}=#{$!{field.propertyName}},
+            </if>
+#end
+#end
+        ##生成普通字段
+#foreach($field in ${table.fields})
+#if(!${field.keyFlag})
+            <if test="$!{field.propertyName} != null">
+                $!{field.name}=#{$!{field.propertyName}},
+            </if>
+#end
+#end
+        </set>
+        where $!{table.fields[0].name} = #{$!{table.fields[0].propertyName}}
+    </update>
+
+    <!--  根据主键删除记录 -->
+    <delete id="deleteById">
+        delete from ${table.name}
+       where $!{table.fields[0].name} = #{$!{table.fields[0].propertyName}}
+    </delete>
+#end
+</mapper>
