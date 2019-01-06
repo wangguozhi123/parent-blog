@@ -1,63 +1,180 @@
-2018-12-10 21:40:13 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 1148 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
-2018-12-10 21:40:13 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
-2018-12-10 21:40:15 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
-2018-12-10 21:40:15 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
-2018-12-10 21:40:16 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 33ms. Found 0 repository interfaces.
-2018-12-10 21:40:16 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$90cd6421] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2018-12-10 21:40:20 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
-2018-12-10 21:40:22 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
-2018-12-10 21:40:24 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 12.618 seconds (JVM running for 15.287)
-2018-12-10 21:40:25 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
-2018-12-10 21:40:25 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
-2018-12-10 21:40:28 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
-2018-12-10 21:40:28 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
-2018-12-10 21:42:20 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 7924 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
-2018-12-10 21:42:20 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
-2018-12-10 21:42:23 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
-2018-12-10 21:42:23 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
-2018-12-10 21:42:23 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
-2018-12-10 21:42:24 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$187ec860] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2018-12-10 21:42:27 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
-2018-12-10 21:42:29 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
-2018-12-10 21:42:30 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 11.344 seconds (JVM running for 12.921)
-2018-12-10 21:42:31 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
-2018-12-10 21:42:31 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
-2018-12-10 21:42:33 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
-2018-12-10 21:42:33 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
-2018-12-10 21:43:11 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 15476 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
-2018-12-10 21:43:11 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
-2018-12-10 21:43:13 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
-2018-12-10 21:43:13 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
-2018-12-10 21:43:13 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
-2018-12-10 21:43:14 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a41b488d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2018-12-10 21:43:17 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
-2018-12-10 21:43:19 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
-2018-12-10 21:43:20 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 10.443 seconds (JVM running for 12.087)
-2018-12-10 21:43:21 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
-2018-12-10 21:43:21 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
-2018-12-10 21:43:23 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
-2018-12-10 21:43:23 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
-2018-12-10 23:03:17 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 16828 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
-2018-12-10 23:03:17 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
-2018-12-10 23:03:19 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
-2018-12-10 23:03:19 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
-2018-12-10 23:03:19 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 56ms. Found 0 repository interfaces.
-2018-12-10 23:03:20 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ccfa9b27] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2018-12-10 23:03:24 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
-2018-12-10 23:03:28 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
-2018-12-10 23:03:31 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 15.149 seconds (JVM running for 18.872)
-2018-12-10 23:03:32 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
-2018-12-10 23:03:32 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
-2018-12-10 23:03:42 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 15496 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
-2018-12-10 23:03:42 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
-2018-12-10 23:03:44 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
-2018-12-10 23:03:44 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
-2018-12-10 23:03:45 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 66ms. Found 0 repository interfaces.
-2018-12-10 23:03:45 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a6855673] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-2018-12-10 23:03:50 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
-2018-12-10 23:03:53 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
-2018-12-10 23:03:56 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 14.601 seconds (JVM running for 17.454)
-2018-12-10 23:03:56 INFO  - class [io.lettuce.core.EpollProvider] - Starting without optional epoll library
-2018-12-10 23:03:56 INFO  - class [io.lettuce.core.KqueueProvider] - Starting without optional kqueue library
-2018-12-10 23:03:59 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
-2018-12-10 23:03:59 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:26:59 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 10480 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:26:59 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:27:01 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:27:01 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:27:01 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-01-02 22:27:02 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$13c28917] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:27:02 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4d56cae9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:27:06 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:27:10 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:27:12 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 14.227 seconds (JVM running for 17.182)
+2019-01-02 22:27:13 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Attempting to connect to: [39.107.121.98:5672]
+2019-01-02 22:27:13 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Created new connection: rabbitConnectionFactory#5d7dd549:0/SimpleConnection@690df641 [delegate=amqp://guest@39.107.121.98:5672/, localPort= 52840]
+2019-01-02 22:27:14 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:27:14 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:28:45 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 14344 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:28:45 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:28:48 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:28:48 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:28:48 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 23ms. Found 0 repository interfaces.
+2019-01-02 22:28:50 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$33323041] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:28:50 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6cc67213] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:28:57 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:28:59 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:29:02 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 18.119 seconds (JVM running for 19.667)
+2019-01-02 22:29:02 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Attempting to connect to: [39.107.121.98:5672]
+2019-01-02 22:29:02 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Created new connection: rabbitConnectionFactory#599f1b7:0/SimpleConnection@2c16677c [delegate=amqp://guest@39.107.121.98:5672/, localPort= 52865]
+2019-01-02 22:29:03 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:29:03 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:31:13 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 20540 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:31:13 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:31:15 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:31:15 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:31:15 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 35ms. Found 0 repository interfaces.
+2019-01-02 22:31:16 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$69c37e1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:31:16 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a357bff1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:31:19 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:31:22 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:31:24 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 12.811 seconds (JVM running for 14.787)
+2019-01-02 22:31:24 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Attempting to connect to: [39.107.121.98:5672]
+2019-01-02 22:31:24 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Created new connection: rabbitConnectionFactory#22791b75:0/SimpleConnection@5f935d49 [delegate=amqp://guest@39.107.121.98:5672/, localPort= 52919]
+2019-01-02 22:31:25 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:31:25 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:33:10 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 17064 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:33:10 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:33:13 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:33:13 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:33:13 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 28ms. Found 0 repository interfaces.
+2019-01-02 22:33:13 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$69c37e1f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:33:13 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$a357bff1] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:33:17 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:33:19 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:33:21 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 11.616 seconds (JVM running for 13.217)
+2019-01-02 22:33:21 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Attempting to connect to: [39.107.121.98:5672]
+2019-01-02 22:33:21 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Created new connection: rabbitConnectionFactory#62a6674f:0/SimpleConnection@18e6b72b [delegate=amqp://guest@39.107.121.98:5672/, localPort= 52950]
+2019-01-02 22:33:21 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:33:21 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:40:01 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 19504 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:40:01 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:40:03 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:40:03 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:40:03 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+2019-01-02 22:40:04 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$3f4a03be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:40:04 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$78de4590] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:40:07 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:40:10 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:40:12 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 12.411 seconds (JVM running for 13.907)
+2019-01-02 22:40:12 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Attempting to connect to: [39.107.121.98:5672]
+2019-01-02 22:40:12 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Created new connection: rabbitConnectionFactory#4837f97e:0/SimpleConnection@176333ee [delegate=amqp://guest@39.107.121.98:5672/, localPort= 53119]
+2019-01-02 22:40:12 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:40:12 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:40:30 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 620 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:40:30 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:40:32 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:40:32 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:40:32 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 26ms. Found 0 repository interfaces.
+2019-01-02 22:40:33 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$47ab4551] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:40:33 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$813f8723] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:40:37 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:40:39 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:40:40 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 11.527 seconds (JVM running for 13.108)
+2019-01-02 22:40:40 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Attempting to connect to: [39.107.121.98:5672]
+2019-01-02 22:40:41 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Created new connection: rabbitConnectionFactory#2801827a:0/SimpleConnection@1669931a [delegate=amqp://guest@39.107.121.98:5672/, localPort= 53148]
+2019-01-02 22:40:41 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:40:41 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:41:12 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 15616 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:41:12 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:41:14 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:41:14 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:41:14 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 32ms. Found 0 repository interfaces.
+2019-01-02 22:41:15 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$3f4a03be] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:41:15 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$78de4590] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:41:18 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:41:20 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:41:22 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 11.463 seconds (JVM running for 12.976)
+2019-01-02 22:41:22 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Attempting to connect to: [39.107.121.98:5672]
+2019-01-02 22:41:23 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Created new connection: rabbitConnectionFactory#2725ca05:0/SimpleConnection@41ece227 [delegate=amqp://guest@39.107.121.98:5672/, localPort= 53182]
+2019-01-02 22:41:23 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:41:23 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:48:33 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 16744 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:48:33 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:48:35 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:48:35 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:48:35 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 31ms. Found 0 repository interfaces.
+2019-01-02 22:48:35 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$7bd084f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:48:35 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b564c6c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:48:39 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:48:40 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:48:40 INFO  - class [org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener] - 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-01-02 22:51:36 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 944 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:51:36 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:51:39 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:51:39 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:51:39 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-01-02 22:51:39 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$a9232789] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:51:39 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$e2b7695b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:51:43 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:51:45 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:51:47 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 12.369 seconds (JVM running for 14.028)
+2019-01-02 22:51:47 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Attempting to connect to: [39.107.121.98:5672]
+2019-01-02 22:51:47 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Created new connection: rabbitConnectionFactory#4aaecabd:0/SimpleConnection@44b9c7c4 [delegate=amqp://guest@39.107.121.98:5672/, localPort= 53470]
+2019-01-02 22:51:48 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:51:48 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:53:28 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 13836 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:53:28 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:53:30 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:53:30 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:53:30 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 44ms. Found 0 repository interfaces.
+2019-01-02 22:53:30 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$b0968b8d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:53:30 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$ea2acd5f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:53:34 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:53:37 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:53:39 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 12.805 seconds (JVM running for 14.461)
+2019-01-02 22:53:39 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Attempting to connect to: [39.107.121.98:5672]
+2019-01-02 22:53:39 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Created new connection: rabbitConnectionFactory#448462f0:0/SimpleConnection@7db791df [delegate=amqp://guest@39.107.121.98:5672/, localPort= 53566]
+2019-01-02 22:53:40 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:53:40 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:53:59 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 10536 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:53:59 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:54:02 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:54:02 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:54:02 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 49ms. Found 0 repository interfaces.
+2019-01-02 22:54:03 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$46900a13] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:54:03 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$80244be5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:54:09 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:54:12 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:54:13 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 15.899 seconds (JVM running for 17.574)
+2019-01-02 22:54:14 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Attempting to connect to: [39.107.121.98:5672]
+2019-01-02 22:54:14 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Created new connection: rabbitConnectionFactory#4584304:0/SimpleConnection@3321291a [delegate=amqp://guest@39.107.121.98:5672/, localPort= 53685]
+2019-01-02 22:54:14 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:54:14 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:54:41 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 10688 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:54:41 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:54:43 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:54:43 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:54:43 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 29ms. Found 0 repository interfaces.
+2019-01-02 22:54:43 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$7bd084f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:54:44 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b564c6c9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:54:48 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:54:50 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:54:52 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 12.389 seconds (JVM running for 14.131)
+2019-01-02 22:54:52 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Attempting to connect to: [39.107.121.98:5672]
+2019-01-02 22:54:52 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Created new connection: rabbitConnectionFactory#586cc15d:0/SimpleConnection@26a45089 [delegate=amqp://guest@39.107.121.98:5672/, localPort= 53727]
+2019-01-02 22:54:53 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:54:53 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed
+2019-01-02 22:55:21 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Starting ArticleBlogApplicationTests on LAPTOP-2N01GQB7 with PID 860 (started by wgz in C:\Users\wgz\IDEA\parent-blog\article-blog)
+2019-01-02 22:55:21 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - No active profile set, falling back to default profiles: default
+2019-01-02 22:55:23 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-01-02 22:55:23 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-01-02 22:55:23 INFO  - class [org.springframework.data.repository.config.RepositoryConfigurationDelegate] - Finished Spring Data repository scanning in 30ms. Found 0 repository interfaces.
+2019-01-02 22:55:24 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$775afdf0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:55:24 INFO  - class [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$b0ef3fc2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-01-02 22:55:27 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} inited
+2019-01-02 22:55:30 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Initializing ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:55:31 INFO  - class [com.seven.articleblog.ArticleBlogApplicationTests] - Started ArticleBlogApplicationTests in 11.622 seconds (JVM running for 13.234)
+2019-01-02 22:55:32 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Attempting to connect to: [39.107.121.98:5672]
+2019-01-02 22:55:32 INFO  - class [org.springframework.amqp.rabbit.connection.CachingConnectionFactory] - Created new connection: rabbitConnectionFactory#2b43f314:0/SimpleConnection@77cddc0c [delegate=amqp://guest@39.107.121.98:5672/, localPort= 53807]
+2019-01-02 22:55:32 INFO  - class [org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor] - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-01-02 22:55:32 INFO  - class [com.alibaba.druid.pool.DruidDataSource] - {dataSource-1} closed

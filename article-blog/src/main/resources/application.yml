@@ -86,3 +86,9 @@ spring:
         poolPreparedStatements: true
         maxPoolPreparedStatementPerConnectionSize: 20
         connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
+  #配置rabbitMq
+  rabbitmq:
+    host: 39.107.121.98
+    username: guest
+    password: guest
+    #virtual-host:
